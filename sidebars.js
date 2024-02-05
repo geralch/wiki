@@ -23,6 +23,29 @@ const sidebars = {
       id: 'intro',
       label: 'Welcome'
     },
+    {
+      type: 'category',
+      label: 'Operating Systems',
+      items: [
+        {
+          type: 'category',
+          label: 'Windows',
+          items: [
+            {
+              type: 'category',
+              label: 'Powershell',
+              link: {
+                type: 'doc',
+                id: 'OS/windows/powershell/intro',
+              },
+              items: [
+                'OS/windows/powershell/change-font',
+                'OS/windows/powershell/oh-my-posh',
+              ],
+            }]
+        },
+      ],
+    },
   ],
 };
 
