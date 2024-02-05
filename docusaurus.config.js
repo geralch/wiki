@@ -60,6 +60,10 @@ const config = {
     },
     navbar: {
       title: "All I Know",
+      logo: {
+        alt: "My Site Logo",
+        src: "slackmojis/meow_party.gif",
+      },
       items: [
         {
           href: 'https://github.com/geralch',
