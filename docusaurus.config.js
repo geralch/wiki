@@ -12,7 +12,7 @@ const config = {
   title: "Geralch Wiki",
   tagline: "Dinosaurs are cool",
   url: `https://${organizationName}.github.io`,
-  baseUrl: `/${projectName}/`,
+  baseUrl: `/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "slackmojis/meow_party.gif",
