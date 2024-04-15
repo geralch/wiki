@@ -9,13 +9,13 @@ const projectName = "wiki";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Geralch Wiki",
-  tagline: "Dinosaurs are cool",
+  title: "Geraldine Caicedo's Wiki",
+  tagline: "Geraldine Caicedo's personal wiki.",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
-  favicon: "slackmojis/meow_party.gif",
+  favicon: "img/icon.ico",
   // GitHub Pages adds a trailing slash by default that I don't want
   trailingSlash: false,
 
@@ -50,8 +50,8 @@ const config = {
   ],
   themeConfig: {
     colorMode: {
-      defaultMode: "dark",
-      disableSwitch: true,
+      defaultMode: "light",
+      disableSwitch: false,
       respectPrefersColorScheme: false,
     },
     prism: {
@@ -62,7 +62,7 @@ const config = {
       title: "All I Know",
       logo: {
         alt: "My Site Logo",
-        src: "slackmojis/meow_party.gif",
+        src: "img/icon.ico",
       },
       items: [
         {
@@ -72,31 +72,15 @@ const config = {
           html: '<i class="fa fa-github"></i>',
         },
         {
-          href: 'https://www.twitch.tv/geralchdev',
-          'aria-label': 'Twitch',
+          href: 'https://www.linkedin.com/in/geraldinecaicedohidalgo/',
+          'aria-label': 'Linkedin',
           position: 'right',
-          html: '<i class="fa fa-twitch"></i>',
+          html: '<i class="fa fa-linkedin" aria-hidden="true"></i>',
         },
       ],
     },
     footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Social Media",
-          items: [
-            {
-              label: "GitHub",
-              href: 'https://github.com/geralch',
-            },
-            {
-              label: "Twitch",
-              href: 'https://www.twitch.tv/geralchdev',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Geraldine Caicedo. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} GERALCH.DEV. All rights reserved. Built with Docusaurus.`,
     },
   },
 };
