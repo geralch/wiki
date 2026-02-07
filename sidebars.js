@@ -46,6 +46,11 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: 'Ruby',
+      items: ['Ruby/install-rvm-ruby-linux'],
+    },
   ],
 };
 
